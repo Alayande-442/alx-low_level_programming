@@ -9,19 +9,13 @@
 int main(void)
 {
 	char lw;
-	char up;
 
 	for (lw = 'a'; lw <= 'z'; lw++)
-	{
 		putchar(lw);
-	}
-	putchar('\n');
 
+	for (lw = 'A'; lw <= 'Z'; lw++)
+		putchar(lw);
 
-	for (up = 'A'; up <= 'Z'; up++)
-	{
-		putchar(up);
-	}
 	putchar('\n');
 	return 0;
 }
