@@ -1,0 +1,19 @@
+#include <unistd.h>
+
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	char *str = "_putchar\n";
+
+	while (*str)
+	{
+		write(1, str, 1);
+		str++;
+	}
+
+	return (0);
+}
