@@ -1,19 +1,22 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * main - Entry point of the program
- *
- * Return: Always 0 (Success)
- */
+*main - prints the word Holberton
+*
+*Return: 0 on success execution.
+*/
+
 int main(void)
 {
-	char *str = "_putchar\n";
+	char s[] = "_putchar";
+	int i = 0;
 
-	while (*str)
+	while (s[i] != '\0')
 	{
-		write(1, str, 1);
-		str++;
+		_putchar(s[i]);
+		i++;
 	}
+	_putchar(10);
 
 	return (0);
 }
