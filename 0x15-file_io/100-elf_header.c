@@ -1,6 +1,6 @@
 /*
  * File: 100-elf_header.c
- * Auth: Alayande olaoluwa
+ * Auth: Alayande olaoluwa is the author of this project
  */
 
 #include <elf.h>
