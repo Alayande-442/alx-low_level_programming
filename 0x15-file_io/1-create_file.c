@@ -2,7 +2,7 @@
 
 /**
  * create_file - we are to create a file and input text in it
- * with 600 perms (do not change if it exists)
+ * with 600 perms (do not change if it surely exists)
  *
  * @filename: we name the file create_file
  * @text_content: the text that will be written inside the file
