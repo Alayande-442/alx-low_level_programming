@@ -1,6 +1,6 @@
 /*
  * File: 100-elf_header.c
- * Auth: Precious Peter
+ * Auth: Alayande olaoluwa oyetola
  */
 
 #include <elf.h>
